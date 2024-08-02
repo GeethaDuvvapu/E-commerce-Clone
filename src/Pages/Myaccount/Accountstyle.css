@@ -1,0 +1,112 @@
+
+
+.account-details{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+    margin: 100px 450px 0 450px;
+    /* border: 1px solid red; */
+}
+
+.account-details h1{
+    font-size: 33px;
+    font-weight: 500px;
+}
+
+.account-details .registerpath{
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #EFEFEF;
+    border-radius: 6px;
+}
+
+.registerpath #unique{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12em;
+  height: 35px;
+  background-color: #FFFFFF;
+  color: black;
+  border: 0.5px solid #FFFFFF;
+  outline: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.register h3{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.account-details .form{
+    width: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+ 
+.form input {
+    width: 32em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #D8D8D8;
+    padding-bottom: 15px;
+}
+
+.form .checkbox{
+    width: 47%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.checkbox p{
+    font-size: 15px
+}
+
+.account-details .handle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.handle button {
+    width: 85%;
+    height: 45px;
+    background-color: #080808;
+    outline: none;
+    /* border: 1px solid rgba(255,255,255,0.1); */
+    /* border-radius: 5px; */
+    /* padding: 15px 40px; */
+    font-size: 16px;
+    color: white;
+    /* border: none;
+    text-decoration: none; */
+}
+.handle a{
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+

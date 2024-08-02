@@ -1,0 +1,45 @@
+.errorpart{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    gap: 30px;
+}
+
+.errorpart .message{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.message p{
+    color: #707070;
+}
+
+.errorpart .err-msg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.err-msg button{
+    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.err-msg a{
+    border: none;
+    text-decoration: none;
+    color: white;
+}

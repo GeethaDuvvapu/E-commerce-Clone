@@ -1,0 +1,92 @@
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 20vh;
+    /* z-index: 9999999999; */
+    gap: 40px;
+    font-size: 20px;
+    /* border-bottom: 2px solid #D8D8D8; */
+
+}
+
+nav hr{
+    width: 86%;
+}
+.logo{
+    /* width: 90%; */
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .logo img{
+    padding-left: 40px;
+}
+
+nav .list{
+    /* width: 33%; */
+    width: 35%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.list a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: DM Sans;
+}
+#personal{
+  width: 25px;
+  height: 30px;
+}
+.list .search-part{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    gap: 20px;
+    size: 50px;
+}
+.search-part .icon{
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 110px;
+}
+.icon input{
+    border: none;
+    outline: none;
+    padding-top: 10px;
+}
+.icon .s-symbol{
+  width:25% ;
+  color: black;
+}
+
+/* .cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0 5px;
+    font-size: 0.8rem;
+    position: relative;
+    top: -10px;
+    right: 10px;
+  }
+   */

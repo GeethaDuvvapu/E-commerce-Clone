@@ -1,0 +1,126 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30em;
+     /* flex-direction: row; */
+    /* margin: 100px;
+    padding: 10px 150px;  */
+    gap: 30px;
+}
+.main .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 85em;
+    gap: 20px;
+}
+
+.header .privacy-points{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+ .container .shoppingbag{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 40em;
+    gap: 40px;
+}
+.shoppingbag .container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.shoppingbag .cartbag{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cartbag .grid-section5{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid-section5 .cartpicture{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 25px;
+    /* border-bottom: 1px solid #707070; */
+    padding-bottom: 30px;
+}
+.cartpicture img{
+    width: 80%;
+    height: 20vh;
+}
+.cartpicture .qty{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 7em;
+}
+
+.cartpicture .cartdescription{
+    width: 20em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+.cartpicture .IoIosClose{
+    width:10em ;
+}
+.cartdescription .itemprice span{
+    color: #A18A68;
+
+}
+.shoppingbag hr{
+    width: 25em;
+}
+.shoppingbag .sub{
+    width: 25em;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub .sub1{
+    display:flex ;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9em;
+}
+.sub button{
+    width: 25em;
+    height: 5vh;
+    background-color: white;
+    color: black;
+}

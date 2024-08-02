@@ -1,0 +1,192 @@
+.productpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+
+}
+
+.productpage .detailsofselectitem2{
+    width: 92%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 85px;
+    gap: 150px;
+}
+
+.detailsofselectitem2 h4{
+    color: #707070;
+    font-size: 30px; 
+    
+}
+
+.detailsofselectitem2 .reviews h4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    font-size: 30px;
+}
+
+.productpage .aboutofproduct2{
+    /* width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 5px;
+    border: 1px solid red; */
+    width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    padding-top: 40px; 
+    /* border: 1px solid red; */
+}
+
+.aboutofproduct2 .reviewsection{
+    /* width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    /* border: 1px solid red;  */
+
+}
+
+.reviewsection .rightpart{
+    width: 90%;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.reviewsection .section1{
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: row;
+    gap: 40px;
+}
+
+.reviewsection .content{
+    width: 50%;
+    border-bottom: 1px solid #D8D8D8;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.aboutofproduct2 .detailsofreview{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.detailsofreview .leftpart{
+    width: 90%;
+    display: flex;
+    padding-bottom: 1px;
+}
+
+.detailsofreview .content2{
+  display: flex;  
+  padding-bottom: 5px;
+
+}
+
+.detailsofreview .yourreview{
+    width: 60%;
+    border-bottom: 1px solid #D8D8D8;
+    gap: 40px;
+    padding-bottom: 65px;
+}
+
+.detailsofreview .name{
+    width: 60%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 25px;
+
+}
+
+.detailsofreview .email{
+    width: 60%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 25px;
+}
+
+.detailsofreview .checkbox{
+    width: 65%;
+    display: flex;
+    /* flex-direction: ; */
+    gap: 10px;
+}
+
+.detailsofreview .submit-btn{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,280 @@
+
+.checkout-section{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 90px;
+    /* padding: 0 150px; */
+    
+}
+
+.checkout-section .main-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading h1{
+    font-size: 33px;
+    font-weight: 500px;
+}
+
+ .checkout-section .code{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.code .customer1{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+}   
+
+.code .customer2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    gap: 5px;
+}
+
+.checkout-section .coupon{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    border: 1px solid #D8D8D8;
+    padding: 30px;
+    padding-right: 50px;
+}
+
+.coupon p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #707070;
+}
+
+.coupon .coupon-code{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.coupon-code p{
+    width: 50em;
+    font-size: 12px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.coupon-code #different{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 35px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
+.checkout-section .billing-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 20px; */
+}
+
+.billing-section .left-side{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-side .form{
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 40px;
+    /* width: 90%;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px; */
+}
+ .form .Details{
+    width: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+} 
+.form .companyname{
+    width: 25em;
+    display: flex;
+}
+.form .country{
+    width: 25em;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.form .streetaddress{
+    width: 25em;
+} 
+.form .postcode{
+    width: 25em;
+} 
+.form .town{
+    width: 25em;
+} 
+.form .phone{
+    width: 25em;
+} 
+.form .email{
+    width: 25em;
+} 
+.form .create-account{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+.create-account p{
+    font-size: 15px
+}
+.form .ship-address{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+.ship-address p{
+    font-size: 15px
+}
+.form .notes{
+    width: 200%;
+}
+
+/* .form .submit{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+} */
+
+
+.billing-section .right-side{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-side .product-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+.product-section .product{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 25px 0px 20px 0px;
+    gap: 10px;
+}
+.product-section hr{
+    width: 70%;
+    color: #D8D8D8;
+}
+.product-section .hair-pins{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 10px;
+}
+.hair-pins .liraearrings{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.hair-pins hr{
+    width: 100%;
+    color: #D8D8D8;
+}
+.liraearrings p{
+   font-size: 16px;
+   color: #707070;
+}
+.product-section .bank{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+.bank .transfer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.bank .matter p{
+    font-size: 12px;
+}
+
+.product-section .payment-method{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.payment-method .check-payments{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.payment-method .submit{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+

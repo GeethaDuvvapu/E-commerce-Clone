@@ -1,0 +1,75 @@
+.productpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.productpage .shoppingbag{
+    width: 92%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #EFEFEF;
+    padding-left: 40px;
+    padding: 20px;
+    border-top: 2px solid #A18A68;
+}
+
+.shoppingbag .viewcart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 79%;
+}
+
+.viewcart p{
+    color: #A18A68;
+    font-size: 14px;
+
+}
+
+.productpage .detailsofselectitem1{
+    width: 92%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 85px;
+    gap: 150px;
+}
+
+.detailsofselectitem1 .description h4{
+    color: #707070;
+    font-size: 30px; 
+}
+
+.detailsofselectitem1 .additionalinfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    font-size: 30px;
+}
+
+.detailsofselectitem1 .reviews{
+    color: #707070;
+    font-size: 30px; 
+}
+
+.productpage .aboutofproduct1{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 5px;
+}
+.aboutofproduct1 .feauters{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

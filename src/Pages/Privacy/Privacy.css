@@ -1,0 +1,35 @@
+.main{
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    padding: 10px 150px;
+    gap: 30px;
+}
+
+.main .header{
+    /* width: 65%; */
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header .privacy-points{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+

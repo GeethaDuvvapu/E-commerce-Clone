@@ -1,0 +1,238 @@
+
+.cartpage{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    padding: 10px 100px;
+    gap: 30px;
+
+
+         .cartsection{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row;
+            gap: 20px; 
+            
+            .grid-section3{
+                width: 50%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+
+                .cartpicture{
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    flex-direction: row;
+                    gap: 25px;
+                    border-bottom: 1px solid #707070;
+                    padding-bottom: 30px;
+                    
+                img{
+                    width: 25%;
+                    height: 15vh;
+                }
+                .cartdescription{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                     flex-direction: column;
+                    gap: 10px;
+                    .itemprice{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        gap: 5px;
+
+                        p{
+                            color: #707070;
+                        }
+                        span{
+                            color: #A18A68;
+                        }
+                    }
+                 }
+                 .countpart{
+                    // width: 15%;
+                    // height: 5vh;
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 15px;
+
+                    button{
+                        width: 50%;
+                        height: 3vh;
+                        font-size: 20px;
+                    }
+
+                    span{
+                        font-size: 30px;
+                    }
+                 }
+                 .deletepart{
+                    width: 15%;
+                    height: 3vh;
+                   
+                 }
+                }
+
+                
+                
+                .update{
+                    width: 80%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    
+                    button{
+                        width: 23%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: white;
+                        color: #000000;
+                        padding: 10px;
+                        margin-bottom: 50px;
+                        font-weight: bold;
+                    }
+                }
+                .apply{
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    flex-direction: row;
+                    gap: 100px;
+                }
+                p{
+                    color: #707070;
+                    // border-bottom: 1px solid #707070;
+
+                }
+                .coupon{
+                    width: 25%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: black;
+                    color: white;
+                    padding: 10px;
+                    margin-bottom: 50px;
+                }
+               
+            }
+
+            .right-cart{
+                width: 43%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 25px;
+
+                .subtotal{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 150px;
+
+                    p{
+                        color: #000000;
+                    }
+                    span{
+                        color: #707070;
+                    }
+                }
+                .shippingpart{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    gap: 150px;
+                    border-bottom: 1px solid #707070;
+                    
+                    p{
+                        color: #000000;  
+                    }
+
+                    .part2{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px;
+
+                        p{
+                            color: #707070;
+                        }
+
+                        .calci{
+                            width: 150%;
+                            display: flex;
+                            flex-direction: row;
+                            gap: 100px;
+
+                            p{
+                                color: #000000;  
+                            }
+                        }
+                        .cartinfo{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        button{
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: white;
+                            color: #000000;
+                            padding: 20px;
+                            margin-bottom: 50px;
+                            font-weight: bold;
+                        }
+
+                    }
+                    
+                }
+
+                .part3{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 380px;
+                     
+                    p{
+                        color: #000000;
+                        font-weight: bold;
+ 
+                    }
+                }
+                .proceed{
+                    width: 37em;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: black;
+                    color: white;
+                    padding: 10px;
+                    margin-bottom: 50px;
+
+                   
+                   
+                }
+            }
+        }
+         
+}
+     
+

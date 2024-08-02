@@ -1,0 +1,23 @@
+.downloads-page{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.downloads-page .no-downloads{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20%;
+    padding-left: 40px;
+    padding: 10px;
+    background-color: #EFEFEF;
+    border-top: 2px solid #A18A68;
+}
+
+.no-downloads h4{
+    color: #A18A68;
+}

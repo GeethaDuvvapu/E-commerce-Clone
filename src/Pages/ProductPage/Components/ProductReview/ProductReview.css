@@ -1,0 +1,126 @@
+
+.aboutofproduct2 .reviewsection{
+    /* width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    /* border: 1px solid red;  */
+
+}
+
+.reviewsection .rightpart{
+    width: 90%;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.reviewsection .section1{
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: row;
+    gap: 40px;
+}
+
+.reviewsection .content1{
+    width: 75%;
+    border-bottom: 1px solid #D8D8D8;
+    gap: 40px;
+    padding-bottom: 40px;
+    color: #707070;
+
+}
+.reviewsection .section1{
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: row;
+    gap: 40px;
+}
+.reviewsection .content2{
+    width: 75%;
+    /* border-bottom: 1px solid #D8D8D8; */
+    gap: 40px;
+    padding-bottom: 40px;
+    color: #707070;
+
+}
+
+
+.aboutofproduct2 .detailsofreview{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.detailsofreview .leftpart{
+    width: 90%;
+    display: flex;
+    padding-bottom: 1px;
+}
+
+.detailsofreview .content3{
+  display: flex;  
+  padding-bottom: 5px;
+  color: #707070;
+}
+
+.detailsofreview .yourreview{
+    width: 60%;
+    border-bottom: 1px solid #D8D8D8;
+    gap: 40px;
+    padding-bottom: 65px;
+    color: #707070;
+
+}
+
+.detailsofreview .name{
+    width: 60%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 25px;
+    color: #707070;
+
+
+}
+
+.detailsofreview .email{
+    width: 60%;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 25px;
+}
+
+
+.detailsofreview .checkbox{
+    width: 75%;
+    display: flex;
+    /* flex-direction: ; */
+    gap: 10px;
+    color: #707070;
+
+}
+
+.detailsofreview .your-rating p{
+    color: #707070;
+
+}
+
+.detailsofreview .submit-btn{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}

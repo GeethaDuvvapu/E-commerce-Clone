@@ -1,0 +1,16 @@
+.logoutmsg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15em;
+    gap: 5px;
+}
+ .loginmsg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3em;
+
+ }

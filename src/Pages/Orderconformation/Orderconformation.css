@@ -1,0 +1,155 @@
+
+.orderconformation-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+
+}
+
+.orderconformation-page .received-order{
+    width: 82%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #EFEFEF;
+    padding-left: 40px;
+    padding: 20px;
+    border-top: 2px solid #A18A68;
+}
+
+.orderconformation-page .order-info{
+    width: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 40px; 
+    /* border: 1px solid red; */
+
+}
+
+.order-info .detailsof-order{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.detailsof-order .order-heading1{
+    width: 90%;
+    display: flex;
+}
+
+.detailsof-order .ordersection1{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.ordersection1 .order-left{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+} 
+.order-left .order-number{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+.order-number h6{
+   font-size: 14px;
+}
+.order-number p{
+    font-size: 16px;
+    font-weight: 400px;
+}  
+
+.ordersection1 .order-right{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.order-right .delivery-options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.delivery-options h6{
+    font-size: 14px;
+}
+.delivery-options p{
+    font-size: 16px;
+    font-weight: 400px;
+} 
+
+ 
+.order-info .order-summary{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+} 
+
+.orderconformation-page .order-summary{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.order-summary .product-section{
+    width: 99%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.product-section .product{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 25px 0px 20px 0px;
+    gap: 10px;
+}
+.product-section hr{
+    width: 70%;
+    color: #D8D8D8;
+}
+.product-section .hair-pins{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 10px;
+}
+.hair-pins .liraearrings{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.hair-pins hr{
+    width: 100%;
+    color: #D8D8D8;
+}
+.liraearrings p{
+   font-size: 16px;
+   color: #707070;
+}

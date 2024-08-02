@@ -1,0 +1,10 @@
+/* .aboutofproduct1 .feauters{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} */
+
+.feauters p{
+    color: #707070;
+    gap: 10px;
+}
